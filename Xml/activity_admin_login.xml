@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="@drawable/adminloginbackground"
+    tools:context="com.example.rushikesh.questionpapergenerator3.AdminLogin"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/administratoricon"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:text="ADMIN LOGIN"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+         />
+
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/profile"
+        android:hint=" Enter Username"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/password"
+        android:hint=" Enter Password"
+        android:inputType="numberPassword"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <Button
+
+        android:id="@+id/login"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/loginbuttoncolor"
+        android:elevation="15dp"
+        android:text="LOGIN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:visibility="visible" />
+
+</LinearLayout>

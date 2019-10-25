@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:background="@drawable/adminloginbackground"
+    tools:context="com.example.rushikesh.questionpapergenerator3.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bgwrt"
+        android:gravity="center"
+        android:lineSpacingExtra="18sp"
+        android:text="QUESTION PAPER GENERATOR"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="generate"
+        android:text="Generate Question Paper"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:visibility="visible"
+        android:elevation="15dp"
+        android:layout_marginTop="70dp"
+        />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_red_dark"
+        android:elevation="15dp"
+        android:onClick="admin"
+        android:text="Login as Admin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:visibility="visible" />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/adminloginbackground"
+    tools:context="com.example.rushikesh.questionpapergenerator3.FillForm">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="FILL THE FORM"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Stream"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:textSize="25dp"/>
+
+    <Spinner
+        android:id="@+id/streamSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="visible">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Year"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:textSize="25dp"/>
+
+    <Spinner
+        android:id="@+id/yearSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Semester"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:textSize="25dp"/>
+
+    <Spinner
+        android:id="@+id/semSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+    </Spinner>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="310dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/loginbuttoncolor"
+        android:onClick="done"
+        android:text="DONE"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:visibility="visible" />
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/adminloginbackground"
+    tools:context="com.example.rushikesh.questionpapergenerator3.AdminAddQuestion">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25dp"
+        android:hint="enter question here....."
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:id="@+id/et1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Marks level"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Marks Category"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerMarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Subject"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Chapter"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerChapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/loginbuttoncolor"
+        android:onClick="adminAddDone"
+        android:text="DONE"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+
+
+
+</LinearLayout>

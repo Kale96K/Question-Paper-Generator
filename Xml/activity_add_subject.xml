@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/adminloginbackground"
+    tools:context="com.example.rushikesh.questionpapergenerator3.AddSubject">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerAddStream">
+    </Spinner>
+    <EditText
+        android:id="@+id/etSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint=" Enter SUBJECT..."
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/etSem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Enter SEMESTER..."
+        android:textColor="#ffffff"
+        android:textSize="25dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@drawable/loginbuttoncolor"
+        android:layout_marginTop="30dp"
+        android:onClick="addSubjectDone"
+        android:text="DONE"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        />
+</LinearLayout>

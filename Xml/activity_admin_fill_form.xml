@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/adminloginbackground"
+    tools:context="com.example.rushikesh.questionpapergenerator3.AdminFillForm">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Stream"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/spinnerStream">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Year"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/spinnerYear">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Semester"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/spinnerSem">
+
+    </Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/loginbuttoncolor"
+        android:onClick="adminDone"
+        android:text="DONE"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+</LinearLayout>

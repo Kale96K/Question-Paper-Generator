@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/adminloginbackground"
+    tools:context="com.example.rushikesh.questionpapergenerator3.QuestionManipulation">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADMIN OPTIONS"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="40dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Add"
+        android:onClick="addQuestion"
+        android:id="@+id/addQuestion"
+        android:background="@drawable/loginbuttoncolor"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="70dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Delete"
+        android:onClick="deleteQuestion"
+        android:id="@+id/deleteQuestion"
+        android:background="@drawable/loginbuttoncolor"
+        android:layout_marginBottom="20dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Question Paper Pattern"
+        android:onClick="qppQuestion"
+        android:id="@+id/qppQuestion"
+        android:background="@drawable/loginbuttoncolor"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+    />
+
+</LinearLayout>
